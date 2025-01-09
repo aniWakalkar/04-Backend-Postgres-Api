@@ -4,7 +4,7 @@
 `This is a RESTful API for managing students in a system. The API allows you to perform CRUD (Create, Read, Update, Delete) operations on student records.`
 
 > Base URL: `http://localhost:3001/api`
-> Development URL: `http://localhost:3001/api`
+> Development URL: `https://student-api-bvxf.onrender.com`
 
 ### Content Type: JSON
 ### Authentication: Not required for the current setup.

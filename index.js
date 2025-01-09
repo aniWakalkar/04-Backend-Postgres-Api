@@ -5,6 +5,11 @@ const app = express();
 app.use(bodyParser.json());
 
 
+// Check Health Status
+app.get('/', async (req, res) => {
+  res.status(200).json({ message: "We are online" });
+});
+
 // Get all students
 app.get('/api/getAll/students', async (req, res) => {
   try {
